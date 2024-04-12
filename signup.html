@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign Up Page</title>
+  <link href="signup.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="signup-container">
+    <h1>Sign Up</h1>
+    <input type="text" id="fname" placeholder="First Name">
+    <br>
+    <input type="text" id="lname" placeholder="Last Name">
+    <br>
+    <input type="text" id="email" placeholder="Email">
+    <br>
+    <input type="password" id="password" placeholder="Create Password">
+    <br>
+
+    <br>
+    <select id="roles">
+      <option value="member">Member</option>
+      <option value="coordinator">Coordinator</option>
+    </select>
+    <!--<div class="coordinator-info">
+      <label for="isCoordinator" class="checkbox-label"> I am a Coordinator</label>
+      <input style="margin-left: 10px" type="checkbox" id="isCoordinator">
+    </div>
+    <div class="coach-info">
+      <label for="isCoach" class="checkbox-label"> I am a Coach</label>
+      <input style="margin-left: 10px" type="checkbox" id="isCoach">
+    </div>
+    -->
+    <br>
+    <button type="button" id="attemptSignUp"> Sign Up</button>
+    <br>
+    <h2 id="signUpComplete"></h2>
+  </div>
+  <script type="module" src="signup.js"></script>
+</body>
+
+</html>

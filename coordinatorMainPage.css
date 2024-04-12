@@ -1,0 +1,192 @@
+/* coordinatorMainPage.css */
+
+body {
+  background-color: rgb(28, 65, 77);
+  text-align: center;
+  color: rgb(218, 207, 198);
+}
+
+#welcome,
+h2,
+y h3 {
+  color: rgb(218, 207, 198);
+}
+
+#welcome {
+  text-align: left;
+}
+
+.inboxContainer,
+.sendMessageContainer {
+  border: 2px solid rgb(218, 207, 198);
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(169, 149, 123, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  position: relative;
+}
+
+.inboxTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+}
+
+.inboxContainer {
+  border-style: double;
+  text-align: left;
+  float: left;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.sendMessageContainer {
+  border-style: double;
+  text-align: center;
+  float: right;
+  width: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+}
+
+h2.inboxTitle {
+  position: absolute;
+  bottom: 250px;
+  right: 350px;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+
+}
+
+#sortMembers,
+#submitUserSort,
+#paymentIncrease,
+#requestPayment,
+#showMembers {
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+
+.membersContainer {
+  margin: auto;
+  width: fit-content;
+}
+
+
+.sendMessageContainer h2,
+.sendMessageContainer h3 {
+  color: black;
+}
+
+.sendMessageContainer label {
+  color: black;
+}
+
+.inboxContainer p {
+  color: black;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* Set table width to 100% */
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#costs {
+  border-collapse: collapse;
+  width: 100%;
+  /* Set table width to 100% */
+}
+
+#profitSection {
+  color: black;
+  text-align: right;
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 30px;
+  /* Adjust bottom position */
+  right: 280px;
+  /* Adjust right position */
+}
+
+
+#profitSection h2 {
+  color: black;
+  display: inline;
+}
+
+
+.financesContainer {
+  color: black;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  background-color: rgba(169, 149, 123, 0.9);
+  border: 2px solid rgb(218, 207, 198);
+  border-radius: 8px;
+  width: 40%;
+  /* Adjust width as needed */
+}
+
+.financesContainer table {
+  width: 100%;
+  /* Make table fill container */
+}
+
+.financesContainer th,
+.financesContainer td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+#clubFinances {
+  color: black;
+  display: inline;
+  bottom: 0px;
+  /* Adjust bottom position */
+
+}
+
+#logout {
+  position: absolute;
+  margin-right: 10px;
+  margin-top: 10px;
+  top: 20px;
+  right: 10px;
+
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(169, 149, 123);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout:hover {
+  background-color: rgb(117, 104, 87);
+}

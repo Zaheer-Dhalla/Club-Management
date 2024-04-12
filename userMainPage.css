@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(28, 65, 77);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(218, 207, 198);
+}
+
+h2 {
+  font-style: italic;
+  color: rgb(218, 207, 198);
+}
+
+.inboxContainer {
+  border-style: double;
+  text-align: left;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.sendMessageContainer {
+  border-style: double;
+  text-align: center;
+  float: right;
+  width: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: absolute;
+  top: 270px;
+  right: 10px;
+}
+
+.sendMessageContainer label {
+  text-align: left;
+}
+
+.inboxContainer,
+.sendMessageContainer,
+.paymentContainer {
+  background: rgba(169, 149, 123, 0.9);
+  color: black;
+  border: 2px solid rgb(169, 149, 123);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pym,
+.inboxTitle,
+.sendMessageContainer h2 {
+  color: rgb(0, 0, 0);
+}
+
+#payAmount {
+  width: 100px;
+  /* Adjust the width to make it smaller */
+}
+
+#addPayment {
+  width: 80px;
+  /* Adjust the width to make it smaller */
+}
+
+#logout {
+  position: absolute;
+  margin-right: 10px;
+  margin-top: 10px;
+  top: 20px;
+  right: 10px;
+
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(169, 149, 123);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout:hover {
+  background-color: rgb(117, 104, 87);
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Main Page</title>
+  <link href="coordinatorMainPage.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="welcome"></h1>
+  <button type="button" id="logout">Logout</button>
+  <h2>Request Payment From Members:</h2>
+  <input type="number" id="paymentIncrease" />
+  <button type="button" id="requestPayment">Confirm</button>
+  <h2 style="text-align: left;" id="memberCost"></h2>
+
+  <div class="financesContainer">
+    <h2 id="clubFinances">Club Finances</h2>
+
+    <table id="costs">
+      <tr>
+        <th><b>Sources of Revenue</b></th>
+        <th><b>Expenses</b></th>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+    </table>
+    <div id="profitSection">
+      <h2 id="profitTitle">Profit</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+
+  <div class="inboxContainer">
+    <h2 class="inboxTitle">Inbox</h2>
+    <p id="inboxArea"></p>
+  </div>
+
+  <h3 style="text-align: center">Member List</h3>
+  <label>Sort Members By:</label>
+  <select id="sortMembers">
+    <option value="All Members">All Members</option>
+    <option value="Most Frequently Seen">Most Frequently Seen Members</option>
+    <option value="Members With Outstanding Payments">Members With Outstanding Payments</option>
+    <option value="Members Who Have Paid in Full">Members Who Have Paid In Full</option>
+  </select>
+
+  <button type="button" id="submitUserSort">Submit</button>
+  <button type="button" id="paymentReminder" disabled="true">Send Payment Reminder</button>
+  <div class="membersContainer">
+    <p id="showMembers" style="text-align: left"></p>
+  </div>
+
+  <!-- SOMEONE DO THIS BETTER PLS -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="sendMessageContainer">
+    <h2>Send Message</h2>
+    <label> Send To: </label>
+    <input type="text" id="recipient" />
+    <br>
+    <label> Subject: </label>
+    <input type="text" id="messageSubject" />
+    <br>
+    <br>
+    <h3> Write your message here:</h3>
+    <br>
+    <textarea id="messageBox" rows="3" cols="30"> </textarea>
+    <br>
+    <button type="button" id="sendMessage">Send Message</button>
+  </div>
+
+  <script type="module" src="coordinatorMainPage.js"></script>
+</body>
+
+</html>
